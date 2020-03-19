@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		156930FB3C13AC4962B9A4D9 /* Pods-CPSensitiveWords_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSensitiveWords_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CPSensitiveWords_Tests/Pods-CPSensitiveWords_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		36CA71FDD3AA61A462C9AE30 /* Pods-CPSensitiveWords_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSensitiveWords_Tests.release.xcconfig"; path = "Target Support Files/Pods-CPSensitiveWords_Tests/Pods-CPSensitiveWords_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		55C51DA5FDC48BAD021F7D58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		55C51DA5FDC48BAD021F7D58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CPSensitiveWords_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPSensitiveWords_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		79727BF00AD7B1DE5A03518E /* Pods_CPSensitiveWords_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPSensitiveWords_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6BD0B5EAC4B640F61356D58 /* Pods-CPSensitiveWords_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSensitiveWords_Example.debug.xcconfig"; path = "Target Support Files/Pods-CPSensitiveWords_Example/Pods-CPSensitiveWords_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BA79879AD63C4C588555C783 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C1729D08F2C8A663140BFC7D /* CPSensitiveWords.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CPSensitiveWords.podspec; path = ../CPSensitiveWords.podspec; sourceTree = "<group>"; };
+		BA79879AD63C4C588555C783 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C1729D08F2C8A663140BFC7D /* CPSensitiveWords.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPSensitiveWords.podspec; path = ../CPSensitiveWords.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				156930FB3C13AC4962B9A4D9 /* Pods-CPSensitiveWords_Tests.debug.xcconfig */,
 				36CA71FDD3AA61A462C9AE30 /* Pods-CPSensitiveWords_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				85CF643ACA8C59EBC0218928 /* [CP] Embed Pods Frameworks */,
+				3A829C1A28E89DA63C4F1BD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,7 +295,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		85CF643ACA8C59EBC0218928 /* [CP] Embed Pods Frameworks */ = {
+		3A829C1A28E89DA63C4F1BD3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

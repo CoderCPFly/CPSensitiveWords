@@ -1,0 +1,6 @@
+framework module CPSensitiveWords {
+  umbrella header "CPSensitiveWords-umbrella.h"
+
+  export *
+  module * { export * }
+}

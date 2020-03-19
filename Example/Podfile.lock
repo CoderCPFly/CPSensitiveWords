@@ -1,0 +1,16 @@
+PODS:
+  - CPSensitiveWords (0.1.0)
+
+DEPENDENCIES:
+  - CPSensitiveWords (from `../`)
+
+EXTERNAL SOURCES:
+  CPSensitiveWords:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPSensitiveWords: 60574ed64c550e131dc67f4876d767e940c9daab
+
+PODFILE CHECKSUM: 2393815f33a18e2f097aaf4309d7bfb422067249
+
+COCOAPODS: 1.7.4
