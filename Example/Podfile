@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CPSensitiveWords_Example' do
+  pod 'CPSensitiveWords', :path => '../'
+
+  target 'CPSensitiveWords_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
